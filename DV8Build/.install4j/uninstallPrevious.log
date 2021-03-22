@@ -1,0 +1,95 @@
+[INFO] logger started at Thu Mar 11 17:58:30 CST 2021
+[INFO] executable name: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/uninstall
+[INFO] install4j version: 8.0.9 (build 8247)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=OpenJDK Runtime Environment
+exe4j.moduleName=/home/fabian/Documentos/Work/Proyecto...
+sun.boot.library.path=/home/fabian/Documentos/Work/Proyecto...
+java.vm.version=25.222-b10
+java.vm.vendor=AdoptOpenJDK
+java.vendor.url=http://java.oracle.com/
+path.separator=:
+java.vm.name=OpenJDK 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=MX
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+install4j.exeDir=/home/fabian/Documentos/Work/Proyecto...
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/home/fabian/Documentos/Work/Proyecto...
+java.runtime.version=1.8.0_222-b10
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.endorsed.dirs=/home/fabian/Documentos/Work/Proyecto...
+os.arch=amd64
+java.io.tmpdir=/tmp
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+os.name=Linux
+sun.jnu.encoding=UTF-8
+java.library.path=/home/fabian/Documentos/Work/Proyecto...
+install4j.launcherId=uninstaller
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=5.10.19-1-MANJARO
+install4j.swt=false
+user.home=/home/fabian
+user.timezone=America/Mexico_City
+java.awt.printerjob=sun.print.PSPrinterJob
+java.specification.version=1.8
+file.encoding=UTF-8
+install4j.jvmDir=/home/fabian/Documentos/Work/Proyecto...
+user.name=fabian
+java.class.path=/home/fabian/Documentos/Work/Proyecto...
+install4j.dontUninstallServices=false
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=/home/fabian/Documentos/Work/Proyecto...
+sun.java.command=install4j.Uninstaller2349200010 -q -D...
+install4j.upgradeUninstall=true
+java.specification.vendor=Oracle Corporation
+user.language=es
+awt.toolkit=sun.awt.X11.XToolkit
+java.vm.info=mixed mode
+java.version=1.8.0_222
+java.ext.dirs=/home/fabian/Documentos/Work/Proyecto...
+sun.boot.class.path=/home/fabian/Documentos/Work/Proyecto...
+java.vendor=AdoptOpenJDK
+install4j.appDir=/home/fabian/Documentos/Work/Proyecto...
+file.separator=/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+install4j.alternativeLogfile=/tmp/i4j_log_uninstaller1279725630351...
+sun.cpu.isalist=
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 33]: Execute action
+       Property excludedVariables: null
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: false
+       Variable changed: sys.adminRights=false[class java.lang.Boolean]
+       Variable changed: sys.languageId=en[class java.lang.String]
+       Variable changed: sys.installationDir=/home/fabian/Documentos/Work/ProyectoTerminal/DV8Build[class java.lang.String]
+       Execute action successful after 4 ms
+[INFO] com.install4j.runtime.beans.actions.misc.RequireInstallerPrivilegesAction [ID 34]: Execute action
+       Property failIfNotObtained: true
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 23]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallWelcomeScreen [ID 24]: Show screen
+[INFO] com.install4j.runtime.beans.screens.UninstallWelcomeScreen [ID 24]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallationScreen [ID 27]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallFilesAction [ID 29]: Execute action
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction: executing auto uninstall
+[INFO] com.install4j.runtime.installer.helper.fileinst.FileRemover: postponing deletion of /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4jruntime.jar
+       postponing deletion of /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/user.jar
+       postponing deletion of /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/launcher2bfa42ba.jar
+[INFO] com.install4j.runtime.beans.actions.UninstallFilesAction [ID 29]: Execute action successful after 37 ms
+[INFO] com.install4j.runtime.beans.screens.UninstallationScreen [ID 27]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallFailureScreen [ID 32]: Show screen
+[INFO] com.install4j.runtime.beans.screens.UninstallFailureScreen [ID 32]: command: finish
+       cleaning up
+       Finished

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config version="1.0">
+  <bean class="com.archdia.dv8.naming.SimpleAffixRemovalNamePreProcessor">
+    <property name="prefixes">
+      <list> 
+   	<value>\</value>
+      </list>
+    </property>
+    <property name="order" value="1" />
+  </bean>
+
+  <bean class="com.archdia.dv8.naming.SimplePlatformNamePreProcessor">
+    <property name="convertFrom" value="windows" />
+    <property name="convertTo" value="unix" />
+    <property name="order" value="2" />
+  </bean>
+</config>

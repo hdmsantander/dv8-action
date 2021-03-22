@@ -1,0 +1,452 @@
+[INFO] logger started at Thu Mar 11 17:58:26 CST 2021
+[INFO] executable name: /home/fabian/Documentos/Work/ProyectoTerminal/DV8 Build/DV8_build_standard_unix_linux-amd64.sh
+[INFO] install4j version: 8.0.9 (build 8247)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=OpenJDK Runtime Environment
+exe4j.moduleName=/home/fabian/Documentos/Work/Proyecto...
+sun.boot.library.path=/home/fabian/Documentos/Work/Proyecto...
+java.vm.version=25.222-b10
+java.vm.vendor=AdoptOpenJDK
+java.vendor.url=http://java.oracle.com/
+path.separator=:
+java.vm.name=OpenJDK 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=MX
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+install4j.exeDir=/home/fabian/Documentos/Work/Proyecto...
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/home/fabian/Documentos/Work/Proyecto...
+java.runtime.version=1.8.0_222-b10
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.endorsed.dirs=/home/fabian/Documentos/Work/Proyecto...
+os.arch=amd64
+java.io.tmpdir=/tmp
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+os.name=Linux
+exe4j.totalDataLength=156098848
+sun.java2d.noddraw=true
+sun.jnu.encoding=UTF-8
+java.library.path=/home/fabian/Documentos/Work/Proyecto...
+sun.awt.enableExtraMouseButtons=true
+install4j.launcherId=999
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=5.10.19-1-MANJARO
+install4j.swt=false
+user.home=/home/fabian
+install4j.cwd=/home/fabian/Documentos/Work/Proyecto...
+user.timezone=America/Mexico_City
+java.awt.printerjob=sun.print.PSPrinterJob
+java.specification.version=1.8
+file.encoding=UTF-8
+install4j.jvmDir=/home/fabian/Documentos/Work/Proyecto...
+user.name=fabian
+java.class.path=i4jruntime.jar:launcher0.jar
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=/home/fabian/Documentos/Work/Proyecto...
+sun.java.command=install4j.Installer2349200010
+java.specification.vendor=Oracle Corporation
+user.language=es
+awt.toolkit=sun.awt.X11.XToolkit
+java.vm.info=mixed mode
+java.version=1.8.0_222
+java.ext.dirs=/home/fabian/Documentos/Work/Proyecto...
+sun.boot.class.path=/home/fabian/Documentos/Work/Proyecto...
+java.vendor=AdoptOpenJDK
+install4j.appDir=/home/fabian/Documentos/Work/Proyecto...
+file.separator=/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.font.fontmanager=sun.awt.X11FontManager
+sun.cpu.isalist=
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=false[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 22]: Execute action
+       Property allRequested: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Variable changed: sys.resolveUserSpecificInstallationDir=true[class java.lang.Boolean]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] checking writable with maximum
+[INFO] Variable changed: sys.confirmedUpdateInstallation=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 7]: Execute action
+       Property excludedVariables: [sys.installationDir]
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: false
+       Variable changed: sys.adminRights=false[class java.lang.Boolean]
+       Variable changed: sys.languageId=en[class java.lang.String]
+       Execute action successful after 25 ms
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 15]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 160]: Execute action
+       Property installationDirectory: null
+       Property installerVariables: {}
+       Property logFiles: []
+       Property onlyIfSameApplicationId: true
+       Property rollbackSupported: false
+       Property uninstallServices: true
+       checking running processes
+       checking running processes ok
+       previous installation id at /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build: 2587-2934-9320-8467
+       starting uninstaller
+       executing /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/uninstall
+       see uninstallPrevious.log for the log file of the uninstaller
+       Variable changed: sys.undeletedUninstallFiles=null
+       finished
+       Execute action successful after 3606 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 17]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property acceptAllCertificates: false
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property updateBundledJre: true
+       Property validateApplicationId: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/ASSEMBLY_EXCEPTION; size: 1522 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:31 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/LICENSE; size: 19274 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/THIRD_PARTY_README; size: 147535 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/clhsdb; size: 8861 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:31 CDT 2019, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/hsdb; size: 8861 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/java; size: 8710 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/jjs; size: 8845 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/keytool; size: 8845 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/orbd; size: 8917 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/pack200; size: 8845 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/policytool; size: 8845 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/rmid; size: 8845 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/rmiregistry; size: 8845 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/servertool; size: 8845 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/tnameserv; size: 8917 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/bin/unpack200; size: 182935 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/jli/libjli.so; size: 104794 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:31 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/jvm.cfg; size: 1624 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libattach.so; size: 19293 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:31 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libawt.so; size: 763770 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libawt_headless.so; size: 39470 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libawt_xawt.so; size: 479473 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libdt_socket.so; size: 24672 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libfontmanager.so; size: 514371 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libfreetype.so.6; size: 3277887 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libhprof.so; size: 211097 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:31 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libinstrument.so; size: 51864 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libj2gss.so; size: 47887 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libj2pcsc.so; size: 18486 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libj2pkcs11.so; size: 84276 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libjaas_unix.so; size: 8382 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libjava.so; size: 211117 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libjava_crw_demo.so; size: 26216 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libjawt.so; size: 8347 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libjdwp.so; size: 272746 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libjpeg.so; size: 237105 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libjsdt.so; size: 12968 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libjsig.so; size: 13434 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libjsound.so; size: 8516 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libjsoundalsa.so; size: 83502 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/liblcms.so; size: 449856 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libmanagement.so; size: 51574 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libmlib_image.so; size: 888470 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libnet.so; size: 117815 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libnio.so; size: 94554 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libnpt.so; size: 17564 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libsaproc.so; size: 52424 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libsctp.so; size: 29859 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libsplashscreen.so; size: 446200 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libsunec.so; size: 279145 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libunpack.so; size: 189104 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libverify.so; size: 78075 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/libzip.so; size: 127148 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/server/Xusage.txt; size: 1423 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/amd64/server/libjvm.so; size: 16003360 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:31 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/calendars.properties; size: 2479 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/charsets.jar; size: 3133651 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:38:10 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/classlist; size: 84311 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/cmm/CIEXYZ.pf; size: 784 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/cmm/GRAY.pf; size: 556 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/cmm/LINEAR_RGB.pf; size: 488 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/cmm/PYCC.pf; size: 234080 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/cmm/sRGB.pf; size: 6876 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/content-types.properties; size: 5916 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/currency.data; size: 4102 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/ext/cldrdata.jar; size: 3837894 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:39:17 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/ext/dnsns.jar; size: 8151 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/ext/jaccess.jar; size: 43840 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:39:18 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/ext/localedata.jar; size: 1174681 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:39:21 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/ext/meta-index; size: 617 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:27 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/ext/nashorn.jar; size: 1992774 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:39:25 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/ext/sunec.jar; size: 55395 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:39:26 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/ext/sunjce_provider.jar; size: 262257 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:39:27 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/ext/sunpkcs11.jar; size: 238954 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:39:28 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/ext/zipfs.jar; size: 67512 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:39:29 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/flavormap.properties; size: 3901 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/hijrah-config-umalqura.properties; size: 14959 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/images/cursors/cursors.properties; size: 1274 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/images/cursors/invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/images/cursors/motif_CopyDrop32x32.gif; size: 158 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/images/cursors/motif_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/images/cursors/motif_LinkDrop32x32.gif; size: 162 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/images/cursors/motif_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/images/cursors/motif_MoveDrop32x32.gif; size: 141 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/images/cursors/motif_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/jce.jar; size: 94877 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:38:10 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/jexec; size: 13551 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/jsse.jar; size: 682370 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:38:11 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/jvm.hprof.txt; size: 4226 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/logging.properties; size: 2455 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/management-agent.jar; size: 371 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:38:12 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/management/jmxremote.access; size: 3998 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/management/jmxremote.password.template; size: 2856 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/management/management.properties; size: 14630 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/management/snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/meta-index; size: 1922 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:28 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/net.properties; size: 5352 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/psfont.properties.ja; size: 3793 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/psfontj2d.properties; size: 11390 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/resources.jar; size: 3509537 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:38:12 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/rt.jar; size: 64896376 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 09 03:39:08 CST 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/security/blacklisted.certs; size: 1273 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:26 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/security/cacerts; size: 98310 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/security/java.policy; size: 2466 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/security/java.security; size: 42151 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/security/policy/limited/US_export_policy.jar; size: 621 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/security/policy/limited/local_policy.jar; size: 1041 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/security/policy/unlimited/US_export_policy.jar; size: 621 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/security/policy/unlimited/local_policy.jar; size: 639 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/sound.properties; size: 1210 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/lib/tzdb.dat; size: 107211 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/jre/release; size: 84 bytes; exists: false
+       File options set to: [fileTime: Wed Jul 17 03:16:31 CDT 2019, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/dv8-console.png; size: 5348 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 18 20:53:34 CST 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/uninstall.png; size: 6648 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/bin/dv8-console; size: 14183 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 18 20:53:34 CST 2021, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/bin/dv8-console.vmoptions; size: 243 bytes; exists: true
+       File options set to: [fileTime: Thu Feb 18 20:53:34 CST 2021, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Don't overwrite because file exists (ron: false)
+       Did not replace /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/bin/dv8-console.vmoptions
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/aspectjrt-1.8.13.jar; size: 118753 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 18 20:53:34 CST 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/bcpkix-jdk15on-1.59.jar; size: 792825 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/bcprov-jdk15on-1.59.jar; size: 4092400 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/commons-cli-1.4.jar; size: 53820 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/commons-codec-1.9.jar; size: 263965 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/commons-collections4-4.1.jar; size: 751238 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/commons-io-2.6.jar; size: 214788 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/commons-lang3-3.7.jar; size: 499634 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/commons-logging-1.2.jar; size: 61829 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/commons-net-3.6.jar; size: 307410 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/commons-text-1.1.jar; size: 129145 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/dv8-api-4.0.jar; size: 132278 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/dv8-console-api-4.0.jar; size: 19972 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/dv8-console-command-4.0.jar; size: 11271 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/dv8-console-sdk-4.0.jar; size: 7313 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/dv8-core-4.0.jar; size: 196250 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/dv8-core-cli-4.0.jar; size: 9702 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/dv8-core-license-4.0.jar; size: 30781 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/httpasyncclient-4.1.1.jar; size: 177013 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/httpclient-4.5.2.jar; size: 736658 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/httpcore-4.4.4.jar; size: 326724 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/httpcore-nio-4.4.4.jar; size: 356091 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/httpmime-4.5.2.jar; size: 41029 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/jackson-annotations-2.9.2.jar; size: 66793 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/jackson-core-2.9.2.jar; size: 321243 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/jackson-databind-2.9.2.jar; size: 1333874 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/jackson-datatype-jsr310-2.9.2.jar; size: 96065 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/jna-5.7.0.jar; size: 1686295 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/jna-platform-5.7.0.jar; size: 1337447 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/json-20160212.jar; size: 49176 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/log4j-api-2.9.1.jar; size: 239856 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/log4j-core-2.9.1.jar; size: 1549865 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/log4j-jcl-2.9.1.jar; size: 12635 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/oshi-core-5.5.0.jar; size: 808570 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/slf4j-api-1.7.30.jar; size: 41472 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/slf4j-nop-1.7.26.jar; size: 4010 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/spring-aop-5.0.4.RELEASE.jar; size: 360034 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/spring-beans-5.0.4.RELEASE.jar; size: 654022 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/spring-context-5.0.4.RELEASE.jar; size: 1079064 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/spring-context-support-5.0.4.RELEASE.jar; size: 172099 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/spring-core-5.0.4.RELEASE.jar; size: 1216414 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/spring-expression-5.0.4.RELEASE.jar; size: 263410 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/spring-jcl-5.0.4.RELEASE.jar; size: 15836 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/trove4j-3.0.3.jar; size: 2523218 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/lib/unirest-java-1.4.9.jar; size: 44604 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/log4j2.xml; size: 470 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/JavaEWAH-1.1.6.jar; size: 165868 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/attoparser-2.0.5.RELEASE.jar; size: 244959 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/bcpg-jdk15on-1.64.jar; size: 329081 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/bcpkix-jdk15on-1.64.jar; size: 878038 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/bcprov-jdk15on-1.64.jar; size: 4771726 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/commons-beanutils-1.9.3.jar; size: 246174 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/commons-codec-1.10.jar; size: 284184 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/commons-collections-3.2.2.jar; size: 588337 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/commons-collections4-4.2.jar; size: 752798 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/commons-lang3-3.8.1.jar; size: 501879 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/commons-text-1.3.jar; size: 182954 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/curvesapi-1.04.jar; size: 98365 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/depends-0.9.6.jar; size: 49193913 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-arch-issue-plugin-4.0.jar; size: 67599 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-arch-report-plugin-4.0.jar; size: 41514 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-arch-root-plugin-4.0.jar; size: 10565 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-arch-issue-plugin-4.0.jar; size: 10585 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-arch-report-plugin-4.0.jar; size: 95095 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-arch-root-plugin-4.0.jar; size: 9762 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-core-plugin-4.0.jar; size: 27586 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-cytoscape-plugin-4.0.jar; size: 12811 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-debt-export-plugin-4.0.jar; size: 83515 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-depends-parser-plugin-4.0.jar; size: 9646 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-dr-hier-plugin-4.0.jar; size: 8169 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-hotspot-plugin-4.0.jar; size: 17873 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-metrics-plugin-4.0.jar; size: 12944 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-minos-plugin-4.0.jar; size: 9404 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-office-plugin-4.0.jar; size: 6330 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-scm-plugin-4.0.jar; size: 43782 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-console-understand-plugin-4.0.jar; size: 9185 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-cytoscape-plugin-4.0.jar; size: 6291 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-depends-parser-plugin-4.0.jar; size: 5679 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-dr-hier-plugin-4.0.jar; size: 55842 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-hotspot-plugin-4.0.jar; size: 8394 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-metrics-plugin-4.0.jar; size: 16374 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-office-plugin-4.0.jar; size: 11738 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-scm-plugin-4.0.jar; size: 28238 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/dv8-understand-plugin-4.0.jar; size: 5246 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/javassist-3.20.0-GA.jar; size: 750581 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/jsch-0.1.55.jar; size: 282591 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/jzlib-1.1.1.jar; size: 69578 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/metric-0.1.0.jar; size: 49772512 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/ognl-3.1.12.jar; size: 235656 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/opencsv-4.3.2.jar; size: 165166 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/org.eclipse.jgit-5.6.0.201912101111-r.jar; size: 2827770 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/poi-3.17.jar; size: 2701171 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/poi-ooxml-3.17.jar; size: 1479023 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/poi-ooxml-schemas-3.17.jar; size: 5924600 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/stax-api-1.0.1.jar; size: 26514 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/thymeleaf-3.0.11.RELEASE.jar; size: 869740 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/unbescape-1.1.6.RELEASE.jar; size: 173935 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/plugins/xmlbeans-2.6.0.jar; size: 2730866 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/sample-configurations/archreport.properties; size: 4497 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/sample-configurations/cytoscape-dep-types.mapping; size: 3844 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/sample-configurations/dv8-dependency.mapping; size: 4749 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/sample-configurations/dv8-extended-config.xml; size: 531 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/sample-configurations/history-dep-types.mapping; size: 153 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/scripts/understand/JSON.pm; size: 64394 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/scripts/understand/JSON/backportPP.pm; size: 103854 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/scripts/understand/JSON/backportPP/Boolean.pm; size: 892 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/scripts/understand/JSON/backportPP/Compat5005.pm; size: 2936 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/scripts/understand/JSON/backportPP/Compat5006.pm; size: 4002 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/scripts/understand/convert-und-to-dsm.pl; size: 6662 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/dv8-console/scripts/understand/extract-und-metrics.pl; size: 2971 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/uninstall; size: 14751 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 18 20:53:34 CST 2021, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/inst_jre.cfg; size: 110 bytes; exists: false
+       File options set to: [fileTime: Thu Mar 11 17:58:35 CST 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/pref_jre.cfg; size: 59 bytes; exists: false
+       File options set to: [fileTime: Thu Mar 11 17:58:35 CST 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4jruntime.jar; size: 2029311 bytes; exists: false
+       File options set to: [fileTime: Thu Mar 11 17:58:35 CST 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/MessagesDefault; size: 34423 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4jparams.conf; size: 61352 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/stats.properties; size: 989 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4jempty.ttf; size: 1004 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/uninstallPrevious.log; size: 4792 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/user.jar; size: 8324 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/launcher0.jar; size: 717 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/launcher2bfa42ba.jar; size: 757 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/launcherc6ff007b.jar; size: 795 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4j_extf_6_12unibu_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4j_extf_1_12unibu.utf8; size: 34807 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4j_extf_0_12unibu.utf8; size: 34423 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4j_extf_2_12unibu_p37bi4.png; size: 614 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/libi4jinst.dylib; size: 214672 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4j_extf_3_12unibu_1r4xbfh.png; size: 1374 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/libi4jinst2.dylib; size: 67472 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4j_extf_4_12unibu_k07o5a.png; size: 2141 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4j_extf_5_12unibu_1mcupk0.png; size: 5348 bytes; exists: false
+       Install file: /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/i4j_extf_6_12unibu_18gg8kx.png; size: 9202 bytes; exists: false
+       Backing up /home/fabian/Documentos/Work/ProyectoTerminal/DV8Build/.install4j/response.varfile
+       Execute action successful after 927 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 18]: Execute action
+       Property categories: Application
+       Property linkDirectory: 
+       Property programGroupEntryConfigs: []
+       Property programGroupName: 
+       Property uninstallerMenuName: DV8 Build Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: false
+       Property allUsers: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.programGroupName=DV8 Build[class java.lang.String]
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+[ERROR] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 18]: could not create symbolic link: /usr/local/bin/dv8-console
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 18]: Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 19]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: DV8 Build 4.0.0
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 15]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 20]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 20]: command: finish
+       cleaning up
+       Finished

@@ -1,0 +1,20 @@
+# action.yml
+name: 'DV8 action'
+description: 'Executes DV8 analysis'
+inputs:
+  license key:
+    description: 'The license key of the product'
+    required: true
+  activation code:
+    description: 'The activation code of the product'
+    required: true
+  source language:
+    description: 'The language of the source code, accepted values are: java, cpp, python and ruby'
+    default: java
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'code'
+  color: 'black'

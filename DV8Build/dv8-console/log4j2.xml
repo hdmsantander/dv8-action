@@ -1,0 +1,15 @@
+<Configuration monitorInterval="10">
+  <Appenders>
+    <File name="file" fileName="${sys:user.home}/.dv8/logs/dv8-console.log">
+      <PatternLayout pattern="%d{ISO8601} %c{1.} %-5level [%t] %msg%n" />
+    </File>
+  </Appenders>
+  <Loggers>
+    <Logger name="com.archdia.dv8" level="warn" additivity="false">
+      <AppenderRef ref="file" />
+    </Logger>
+    <Root level="warn">
+      <AppenderRef ref="file" />
+    </Root>
+  </Loggers>
+</Configuration>

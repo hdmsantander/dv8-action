@@ -1,0 +1,11 @@
+{
+  "Cochange": {
+    "name": "Cochange",
+    "id": {
+      "vendor": 0,
+      "family": 1,
+      "type": 1
+    },
+    "weighted": true
+  }
+}

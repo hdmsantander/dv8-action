@@ -1,0 +1,4 @@
+# install4j response file for DV8 Build 4.0.0
+sys.adminRights$Boolean=false
+sys.installationDir=/home/fabian/Documentos/Work/ProyectoTerminal/DV8Build
+sys.languageId=en
