@@ -14,7 +14,7 @@ inputs:
     required: true
 outputs:
   project:
-  description: 'A folder named "project" that contains the content of the DV8 analysis. The folder can be then uploaded as an artifact to the workflow or interacted with in other ways'
+    description: 'A folder named "project" that contains the content of the DV8 analysis. The folder can be then uploaded as an artifact to the workflow or interacted with in other ways'
 runs:
   using: 'docker'
   image: 'Dockerfile'
